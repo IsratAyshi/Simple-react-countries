@@ -34,9 +34,13 @@ const Countries = ({countriesPromise}) => {
     const handleVisitedFlags = (flag) => {
         // console.log('flag needs to be added', flag);
 
+        // if the flag is already in visitedFlags, dont add it again
+        if (visitedFlags.includes(flag)) {
+            return;
+        }
+        
         const newVisitedFlags = [...visitedFlags, flag];
         setVivisitedFlags(newVisitedFlags);
-
 
     }
 

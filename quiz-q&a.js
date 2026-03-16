@@ -1,4 +1,11 @@
 
+//------- npm run dev ---------
+// run this command to start the development server
+
+//--------- npm run build --------- 
+// run this command everytime before deploying
+
+
 //Which hook is commonly used to load data from an API in React? answer: useEffect
 
 //What does .catch() do when used with a fetch promise? answer: handle errors
